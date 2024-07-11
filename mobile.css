@@ -1,6 +1,7 @@
 @media (max-width: 1024px) {
     .app-container {
-        grid-template-columns: 390px;
+        grid-template-columns: 100%;
+        padding: 20px;
     }
     
     .navbar-container {
