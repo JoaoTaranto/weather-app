@@ -1,0 +1,122 @@
+@media (max-width: 1024px) {
+    .app-container {
+        grid-template-columns: 390px;
+    }
+    
+    .navbar-container {
+        flex-direction: column;
+        gap: 20px
+    }
+
+    .showcase-container {
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: 20px;
+        
+    }
+    .showcase-container img {
+        width: 165px;
+    }
+
+    .showcase-text h2:first-child {
+        font-size: 2.25rem;
+    }
+    
+    .showcase-text h2:last-child {
+        font-size: 3rem;
+        font-weight: 700;
+        color: #2a394f
+    }
+    
+    .showcase-text p {
+        font-size: 0.875rem;
+    }
+
+    .hourly-forecast-container {
+        padding: 30px;
+        overflow-x: scroll;
+        gap: 50px;
+    }
+
+    .hour-weather-item img {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 10px;
+    }
+    
+    .hour-weather-item p:first-child {
+        text-align: center;
+        font-size: 0.925rem;
+    }
+    
+    .hour-weather-item p:last-child {
+        color: #fff;
+        font-size: 1.25rem;
+        font-weight: 700;
+    }
+    
+    .weather-details-container {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .weather-detail-item {
+        border-radius: 30px;
+        padding: 20px;
+        min-height: 170px;
+        
+    }
+    
+    .weather-detail-item p:first-child {
+        font-size: 1rem;
+    }
+    .weather-detail-item div {
+        display: flex;
+        align-items: center;
+    }
+    .weather-detail-item div p {
+        font-size: 1.5rem;
+    }
+    
+    .weather-detail-item div p span {
+        font-size: 0.5rem;
+        margin-left: -2px;
+    }
+    
+    .weather-detail-item div img {
+      width: 30px;
+      height: 30px;
+    }
+
+    .weekly-forecast-container {
+        padding: 30px;
+        gap: 20px;
+    }
+
+    .day-weather-item > p {
+        font-size: 0.925rem;
+    }
+    
+    .day-weather-item div {
+        justify-content: flex-end;
+        gap: 10px;
+    }
+    
+    .day-weather-item > div > p:first-child {
+        font-size: 0.925rem;
+    }
+    
+    .day-weather-item > div > p:last-child {
+        font-size: 0.925rem;
+    }
+    
+    .day-weather-item img {
+        width: 50px;
+        height: 50px;
+    }
+
+    ::-webkit-scrollbar {
+        display: none;
+    }
+}
